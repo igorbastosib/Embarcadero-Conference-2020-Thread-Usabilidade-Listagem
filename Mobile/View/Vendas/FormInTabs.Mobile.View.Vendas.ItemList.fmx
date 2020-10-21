@@ -1,0 +1,21 @@
+object filVenda: TfilVenda
+  Size.Width = 320.000000000000000000
+  Size.Height = 40.000000000000000000
+  Size.PlatformDefault = False
+  object lytBackground: TLayout
+    Align = Client
+    Size.Width = 320.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    OnPainting = lytBackgroundPainting
+    object lblDescricao: TLabel
+      Align = Client
+      Size.Width = 320.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'lblDescricao'
+      TabOrder = 0
+    end
+  end
+end
